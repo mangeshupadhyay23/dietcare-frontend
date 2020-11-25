@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+body {
+	height: 100vh;
+}
+
 *:focus {
 	outline: none;
 }
@@ -35,9 +39,13 @@ nav {
 	padding-right: 0 !important;
 }
 
+.jumbotron {
+	margin-bottom: 0 !important;
+	background-color: #f8efd4 !important;
+}
+
 .col-4 {
-	background-color: #f8efd4;
-	height: 90vh;
+	background-color: #f8efd4 !important;
 }
 
 .addItem {
