@@ -14,13 +14,16 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.get('/',(req,res)=>{
-    res.render("main/home.ejs");
+    res.render("main/home.ejs", {
+        pageTitle: 'Home'});
 })
 app.get('/cookbook',(req,res)=>{
-    res.render("main/cookbook.ejs");
+    res.render("main/cookbook.ejs", {
+        pageTitle: 'CookBook'});
 })
 app.get('/planmeals',(req,res)=>{
-    res.render("main/planmeals.ejs");
+    res.render("main/planmeals.ejs", {
+        pageTitle: 'PlanMeals'});
 })
 
 app.listen(3000,()=>{
