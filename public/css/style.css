@@ -63,12 +63,20 @@ nav {
 		flex-direction: column;
 	}
 	.col-4,
-	.col-8 {
+	.col-8,
+	.col-5,
+	.col-7 {
 		flex-direction: row;
 		max-width: 100% !important;
 	}
 	.col-4 .card {
 		flex-direction: column;
+	}
+	.col-5 img {
+		display: block;
+		width: 60% !important;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
