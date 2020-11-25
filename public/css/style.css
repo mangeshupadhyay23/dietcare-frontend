@@ -8,6 +8,19 @@
 	outline: none;
 }
 
+nav {
+	background-color: #132743;
+}
+
+.card {
+	background-color: #edc988 !important;
+}
+
+.btn-primary {
+	border-color: #d7385e !important;
+	background-color: #d7385e !important;
+}
+
 .row {
 	/* display: flex;
 	width: 100%; */
@@ -23,11 +36,10 @@
 }
 
 .col-4 {
-	background-color: #d4d4d4;
+	background-color: #f8efd4;
 	height: 90vh;
 }
 
-<<<<<<< Updated upstream
 .addItem {
 	border: none;
 	background-color: transparent;
@@ -38,8 +50,6 @@
 	outline: none;
 }
 
-=======
->>>>>>> Stashed changes
 @media screen and (max-width: 700px) {
 	.row {
 		flex-direction: column;
