@@ -13,7 +13,8 @@ body {
 }
 
 nav {
-	background-color: #132743;
+    background-color: #132743;
+    position: fixed;
 }
 
 .card {
