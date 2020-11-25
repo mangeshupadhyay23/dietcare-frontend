@@ -1,0 +1,14 @@
+.row {
+	display: flex;
+	width: 100vw;
+}
+
+.col-1 {
+	flex-direction: column;
+	flex-basis: 30%;
+}
+
+.col-2 {
+	flex-direction: column;
+	flex-basis: 70%;
+}
