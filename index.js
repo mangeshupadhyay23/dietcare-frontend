@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.get('/',(req,res)=>{
-    res.render("home.ejs");
+    res.render("main/home.ejs");
 })
 
 app.listen(3000,()=>{
